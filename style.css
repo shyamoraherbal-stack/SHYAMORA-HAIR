@@ -120,7 +120,12 @@ button{font:inherit;cursor:pointer;}
 .footer{background:#f7f7f7;color:white;padding:42px 0 80px;}
 .footer-row{display:flex;justify-content:space-between;gap:24px;align-items:start;}
 .footer p{font-size:11px;color:#0f0f0f;max-width:460px;}
-.footer-links{display:flex;gap:18px;font-size:11px;}
+.footer-links {
+  display: flex;
+  gap: 18px;
+  font-size: 11px;
+  color: #000;
+}
 
 .sticky-order{display:none;position:fixed;z-index:10;bottom:0;left:0;right:0;background:#fffdf9;border-top:1px solid var(--line);padding:10px 14px;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 -8px 25px #201e1a0d;}
 .sticky-price b{font-size:17px;display:block;}
